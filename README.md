@@ -7,6 +7,8 @@ public class LoginSystem {
         // Stored username and password
         String storedUsername = "admin";
         String storedPassword = "1234";
+        System.out.print("Enter Password: ");
+        String password = sc.nextLine();
 This repository is for the
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
