@@ -1,5 +1,12 @@
 # simple-java-maven-app Muzniah Mirza loly
 import java.util.Scanner;
+public class LoginSystem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // Stored username and password
+        String storedUsername = "admin";
+        String storedPassword = "1234";
 This repository is for the
 [Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
 tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
